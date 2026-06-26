@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+  <defs>
+    <radialGradient id="plate-g" cx="50%" cy="45%" r="55%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#E8F5EE"/>
+    </radialGradient>
+  </defs>
+  <!-- Outer ring -->
+  <circle cx="150" cy="150" r="140" fill="#E0F5EC" opacity="0.5"/>
+  <circle cx="150" cy="150" r="120" fill="none" stroke="#1B8E72" stroke-width="3" stroke-dasharray="12,6" opacity="0.4"/>
+  <!-- Plate -->
+  <circle cx="150" cy="150" r="90" fill="url(#plate-g)" stroke="#D0E8DC" stroke-width="2"/>
+  <circle cx="150" cy="150" r="76" fill="none" stroke="#E0EEE8" stroke-width="1.5"/>
+  <!-- Fork & knife icon -->
+  <line x1="130" y1="110" x2="130" y2="190" stroke="#1B8E72" stroke-width="5" stroke-linecap="round"/>
+  <line x1="124" y1="110" x2="124" y2="135" stroke="#1B8E72" stroke-width="4" stroke-linecap="round"/>
+  <line x1="130" y1="110" x2="130" y2="135" stroke="#1B8E72" stroke-width="4" stroke-linecap="round"/>
+  <line x1="136" y1="110" x2="136" y2="135" stroke="#1B8E72" stroke-width="4" stroke-linecap="round"/>
+  <path d="M124,135 Q130,148 136,135" stroke="#1B8E72" stroke-width="4" fill="none"/>
+  <line x1="170" y1="110" x2="170" y2="190" stroke="#1B8E72" stroke-width="5" stroke-linecap="round"/>
+  <path d="M164,110 Q170,130 176,110" stroke="#1B8E72" stroke-width="4" fill="none"/>
+  <!-- Corner scan markers -->
+  <path d="M20,50 L20,20 L50,20" stroke="#1B8E72" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <path d="M250,20 L280,20 L280,50" stroke="#1B8E72" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <path d="M20,250 L20,280 L50,280" stroke="#1B8E72" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <path d="M280,250 L280,280 L250,280" stroke="#1B8E72" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <!-- Food items floating around -->
+  <circle cx="48" cy="130" r="24" fill="#FF8C5A" opacity="0.15"/>
+  <text x="48" y="137" text-anchor="middle" font-size="22">🍜</text>
+  <circle cx="252" cy="100" r="22" fill="#4CAF50" opacity="0.15"/>
+  <text x="252" y="107" text-anchor="middle" font-size="20">🥗</text>
+  <circle cx="60" cy="220" r="22" fill="#F0C142" opacity="0.15"/>
+  <text x="60" y="227" text-anchor="middle" font-size="20">🍤</text>
+  <circle cx="240" cy="210" r="22" fill="#E53935" opacity="0.15"/>
+  <text x="240" y="217" text-anchor="middle" font-size="20">🦐</text>
+</svg>

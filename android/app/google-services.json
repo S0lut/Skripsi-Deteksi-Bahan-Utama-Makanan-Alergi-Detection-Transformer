@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "1039216278169",
+    "project_id": "nootriscan-49e1e",
+    "storage_bucket": "nootriscan-49e1e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1039216278169:android:259ce05911f6e519429608",
+        "android_client_info": {
+          "package_name": "com.example.nootriscan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1039216278169-baspr28b5pq8be7huob3gr2s36qmb4u3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.nootriscan",
+            "certificate_hash": "4bf0298d2650c72a572d94cec8cede16ff80be86"
+          }
+        },
+        {
+          "client_id": "1039216278169-j9g1se959u4sdos57bd2pfpfn9lp7nhl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZYFN5EB31125tOEQ9u9tWNfEF3cwPQCk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1039216278169-j9g1se959u4sdos57bd2pfpfn9lp7nhl.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1039216278169-keghv9uvf8fso7u4lepfbkeuqcrqg0r5.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.nootriscan"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

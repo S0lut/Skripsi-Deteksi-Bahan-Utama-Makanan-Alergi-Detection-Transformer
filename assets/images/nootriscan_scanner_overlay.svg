@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+    width="1200" height="900" viewBox="0 0 1200 900">
+  <defs>
+    <linearGradient id="scanLine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#5CF7C9" stop-opacity="0"/>
+      <stop offset="0.28" stop-color="#5CF7C9" stop-opacity="0.16"/>
+      <stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0.9"/>
+      <stop offset="0.72" stop-color="#5CF7C9" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#5CF7C9" stop-opacity="0"/>
+    </linearGradient>
+
+    <radialGradient id="scannerGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#37D9A8" stop-opacity="0.10"/>
+      <stop offset="0.65" stop-color="#37D9A8" stop-opacity="0.025"/>
+      <stop offset="1" stop-color="#37D9A8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="900" fill="url(#scannerGlow)"/>
+
+  <g fill="none" stroke="#20B88A" stroke-linecap="round">
+    <circle cx="600" cy="450" r="255" stroke-width="2.5" stroke-opacity="0.22"/>
+    <circle cx="600" cy="450" r="310" stroke-width="2"
+      stroke-opacity="0.16" stroke-dasharray="10 18"/>
+    <circle cx="600" cy="450" r="366" stroke-width="1.4"
+      stroke-opacity="0.11" stroke-dasharray="4 23"/>
+
+    <path d="M602 126 A324 324 0 0 1 861 260"
+      stroke-width="6" stroke-opacity="0.36"/>
+    <path d="M338 642 A324 324 0 0 1 266 425"
+      stroke-width="6" stroke-opacity="0.25"/>
+  </g>
+
+  <g stroke="#0A9672" stroke-width="15" stroke-linecap="round" fill="none">
+    <path d="M110 160 H220 M110 160 V270"/>
+    <path d="M1090 160 H980 M1090 160 V270"/>
+    <path d="M110 740 H220 M110 740 V630"/>
+    <path d="M1090 740 H980 M1090 740 V630"/>
+  </g>
+
+  <rect x="90" y="447" width="1020" height="4" rx="2" fill="url(#scanLine)"/>
+
+  <g fill="#4FE9BC">
+    <circle cx="320" cy="270" r="5" opacity="0.44"/>
+    <circle cx="880" cy="275" r="4" opacity="0.38"/>
+    <circle cx="902" cy="640" r="5" opacity="0.40"/>
+    <circle cx="290" cy="652" r="4" opacity="0.40"/>
+    <circle cx="600" cy="112" r="4" opacity="0.35"/>
+    <circle cx="600" cy="792" r="4" opacity="0.31"/>
+  </g>
+</svg>
