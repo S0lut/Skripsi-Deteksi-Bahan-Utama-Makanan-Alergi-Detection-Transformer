@@ -46,7 +46,7 @@ Model mendeteksi sepuluh kategori bahan makanan berikut:
 ## Arsitektur Sistem
 
 Alur kerja sistem secara umum adalah:
-
+```
 Pengguna
    │
    ▼
@@ -245,7 +245,7 @@ drive.mount('/content/drive')
 Sesuaikan `MODEL_PATH` dengan lokasi model di Google Drive:
 
 ```python
-MODEL_PATH = "/content/drive/MyDrive/detr_output_new_data_latih_2_70_20_10/checkpoints/epoch_50"
+MODEL_PATH = disesuaikan dengan path model yang ingin digunakan
 ```
 
 Folder checkpoint harus memuat file yang diperlukan oleh `from_pretrained()`, misalnya:
